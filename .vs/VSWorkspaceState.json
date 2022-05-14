@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\controllers",
+    "\\app\\views",
+    "\\app\\views\\Pages",
+    "\\app\\views\\todos",
+    "\\config",
+    "\\db",
+    "\\db\\migrate"
+  ],
+  "SelectedNode": "\\app\\views\\todos\\.editorconfig",
+  "PreviewInSolutionExplorer": false
+}
