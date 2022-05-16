@@ -15,8 +15,9 @@
         <tr>
             <td><%= item.name %></td> 
             <td><%= item.description %></td>
-            <td><%= link_to " Edit ", edit_todo_path(item) %></td>
-            <td><%= link_to " Show ", todo_path(item) %></td>
+            <td><%= link_to "Edit", edit_todo_path(item) %></td>
+            <td><%= link_to "Show", todo_path(item) %></td>
+            <td><%= link_to "Delete", todo_path(item), method: :delete, data: {confirm: "Are you sure?"} %></td>
         </tr>
     <% end %>
 </table>
