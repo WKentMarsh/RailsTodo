@@ -6,3 +6,8 @@ Name: <%= @todo.name %>
 <p>
 Description: <%= @todo.description %>
 </p>
+
+<p>
+    <%= link_to "Edit this Todo", edit_todo_path(@todo) %> |
+    <%= link_to "Back to Listing", todos_path %>
+</p>
